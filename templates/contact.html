@@ -1,0 +1,128 @@
+<html>
+<head>
+  <title>ODLT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/styles.css">
+  <link rel="stylesheet" href="/static/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Dancing+Script|Courgette|Amatic+SC|Open+Sans+Condensed:300" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</head>
+<body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container-fluid" id="nav">
+  <div class="container">
+      <div class="row nav-row">
+        <div class="nav-row-positioner">
+        <div class="col-md-2 nav-op">
+          <h3><a href="/">Home</a></h3>
+        </div>
+
+        <div class="col-md-2 nav-op">
+          <h3><a href="/about-me">About Me</a></h3>
+        </div>
+
+        <div class="col-md-4 logo-op">
+          <div class="logo-positioner">
+
+            <div class="mob-logo-positioner">
+              <img src="/static/images/logo.png" class="logo"></img>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-2 nav-op">
+          <h3><a href="/portfolio">Portfolio</a></h3>
+        </div>
+
+        <div class="col-md-2 nav-op">
+          <h3><a href="/contact">Contact</a></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container contact-main-holder">
+    <div class="row">
+
+        <div class="col-md-8 contact-info-holder">
+            <div class="row contact-op-holder">
+              <div class="contact-image">
+                <img  src="/static/images/sm_icons/mail-con.png"></img>
+              </div>
+
+              <div class="contact-info">
+                <h1>Mail - <span><a href="mailto:onedaylikethisevents@outlook.com">onedaylikethisevents@outlook.com</a></span></h1>
+              </div>
+            </div>
+            <div class="row contact-op-holder">
+              <div class="contact-image">
+                <img  src="/static/images/sm_icons/fb-con.png"></img>
+              </div>
+
+              <div class="contact-info">
+                <h1>Facebook - <a href="https://www.facebook.com/odlt.co.uk/"><span>@OneDayLikeThisEventPlanner</span></a></h1>
+              </div>
+            </div>
+            <div class="row contact-op-holder">
+              <div class="contact-image">
+                <img  src="/static/images/sm_icons/insta-con.png"></img>
+              </div>
+
+              <div class="contact-info">
+                <h1>Instagram - <a href="https://www.instagram.com/onedaylikethisevents/"><span>@onedaylikethisevents</span></a></h1>
+              </div>
+            </div>
+            <div class="row contact-op-holder">
+              <div class="contact-image">
+                <img  src="/static/images/sm_icons/pin-con.png"></img>
+              </div>
+
+              <div class="contact-info">
+                <h1>Pintrest - <a href="https://www.pinterest.co.uk/onedaylikethisevents/"><span>One Day Like This</span></a></h1>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 well well-sm " id="contact">
+            <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+            <address>
+                <strong>One Day Like This</strong><br>
+                Based in Wellington, Somerset<br>
+                Works all over the South <br>
+                <abbr title="Phone">
+                    P:</abbr>
+                07874347521
+            </address>
+            <address>
+                <strong>Full Name</strong><br>
+                <p>Debbie Bere</p>
+            </address>
+            </form>
+        </div>
+    </div>
+</div>
+
+  </body>
+  <script>
+  $(document).ready(function(){
+    $('.email-con').on('click',function(){
+       window.location.href = "mailto:onedaylikethisevents@outlook.com?subject=Enquiry%20goes%20here";
+     });
+    });
+  </script
+</html>

@@ -1,0 +1,677 @@
+body{
+  background-image: url("/static/images/background.png");
+   min-width:1050px; /* suppose you want minimun width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   min-width:1000px;             /* As IE ignores !important it will set width as 1000px; */
+
+}
+
+/*@media screen and (min-width: 1200px) {*/
+#nav{
+  margin-top: 10px;
+}
+
+@font-face {
+    font-family: "OneDay";
+    src: url(/static/ONEDAY.ttf) format("truetype");
+}
+
+
+.oneday{
+  font-family: "OneDay",  Verdana, Tahoma;
+}
+
+.amatic{
+  font-family: 'Amatic SC', cursive;
+}
+
+
+
+.logo{
+  height: 180px;
+}
+
+.centre{
+  position: relative;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-row{
+  overflow: auto;
+  height: 200px;
+  /*min-width: 1000px;*/
+}
+.logo-op{
+  float: left;
+  min-width: 200px;
+}
+
+.nav-row h3{
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: "OneDay",  Verdana, Tahoma;
+}
+.nav-row h3:hover{
+  font-size: 33px;
+}
+
+.nav-row h3 a{
+  text-decoration: none;
+  color: black;
+}
+.nav-row h3 a:hover{
+    color: #a27e45;
+  }
+.nav-op{
+  margin-top: 40px;
+  float: left;
+  min-width: 16%;
+}
+
+.nav-op:last-child{
+  width: 100px;
+}
+.main-holder{
+  margin-top: 10px;
+}
+.border {
+  position: absolute;
+
+  height: 500px;
+  width: 945px;
+
+}
+
+.border img {
+  transform: rotate(90deg);
+}
+
+.slideshow-canvas{
+  margin-left: 8.3%;
+  margin-right: 8.3%;
+  border-radius: 5px;
+  width: 85%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.slideshow-img{
+  height: 100%;
+  width: 100%;
+}
+.sm-row{
+  /*min-width: 1200px;*/
+}
+
+
+#smContainer{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sm-grouper{
+  width: 42%;
+  float: left;
+}
+
+
+.sm-icon-holder a{
+  text-decoration: none;
+  color: inherit;
+}
+.sm-icon-overlay-left{
+  cursor:pointer;
+  position: absolute;
+  border-radius: 3px;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  left: -225px;
+}
+.sm-icon-overlay-right{
+  cursor:pointer;
+  position: absolute;
+  border-radius: 3px;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  left: 225px;
+}
+.sm-icon-holder{
+  float: left;
+  border-radius: 5px;
+  box-shadow: #2a6381 1px 1px 6px 1px;
+  overflow: hidden;
+  width: 22%;
+  min-width: 130px;
+  height: 70px;
+  background-color: rgba(251, 253, 248, 0.87);
+  margin: 1%;
+  cursor:pointer;
+}
+.fb{
+  margin-left: 1.9%;
+}
+.fb-overlay{
+  background: rgba(59,89,152,1);
+background: -moz-linear-gradient(top, rgba(59,89,152,1) 0%, rgba(59,89,152,1) 20%, rgba(117,148,209,1) 87%, rgba(133,161,217,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(59,89,152,1)), color-stop(20%, rgba(59,89,152,1)), color-stop(87%, rgba(117,148,209,1)), color-stop(100%, rgba(133,161,217,1)));
+background: -webkit-linear-gradient(top, rgba(59,89,152,1) 0%, rgba(59,89,152,1) 20%, rgba(117,148,209,1) 87%, rgba(133,161,217,1) 100%);
+background: -o-linear-gradient(top, rgba(59,89,152,1) 0%, rgba(59,89,152,1) 20%, rgba(117,148,209,1) 87%, rgba(133,161,217,1) 100%);
+background: -ms-linear-gradient(top, rgba(59,89,152,1) 0%, rgba(59,89,152,1) 20%, rgba(117,148,209,1) 87%, rgba(133,161,217,1) 100%);
+background: linear-gradient(to bottom, rgba(59,89,152,1) 0%, rgba(59,89,152,1) 20%, rgba(117,148,209,1) 87%, rgba(133,161,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b5998', endColorstr='#85a1d9', GradientType=0 );
+box-shadow: inset black 0 0px 2px 0px;
+}
+
+.tw-overlay{
+  background: rgba(159,214,245,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(159,214,245,1) 0%, rgba(159,214,245,1) 35%, rgba(29,161,242,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(159,214,245,1)), color-stop(35%, rgba(159,214,245,1)), color-stop(100%, rgba(29,161,242,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(159,214,245,1) 0%, rgba(159,214,245,1) 35%, rgba(29,161,242,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(159,214,245,1) 0%, rgba(159,214,245,1) 35%, rgba(29,161,242,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(159,214,245,1) 0%, rgba(159,214,245,1) 35%, rgba(29,161,242,1) 100%);
+background: radial-gradient(ellipse at center, rgba(159,214,245,1) 0%, rgba(159,214,245,1) 35%, rgba(29,161,242,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9fd6f5', endColorstr='#1da1f2', GradientType=1 );
+box-shadow: inset black 0 0px 2px 0px;
+}
+
+.pin-overlay{
+  background: rgba(71,5,13,1);
+background: -moz-linear-gradient(-45deg, rgba(71,5,13,1) 0%, rgba(71,5,13,1) 5%, rgba(189,8,28,1) 68%, rgba(189,8,28,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(71,5,13,1)), color-stop(5%, rgba(71,5,13,1)), color-stop(68%, rgba(189,8,28,1)), color-stop(100%, rgba(189,8,28,1)));
+background: -webkit-linear-gradient(-45deg, rgba(71,5,13,1) 0%, rgba(71,5,13,1) 5%, rgba(189,8,28,1) 68%, rgba(189,8,28,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(71,5,13,1) 0%, rgba(71,5,13,1) 5%, rgba(189,8,28,1) 68%, rgba(189,8,28,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(71,5,13,1) 0%, rgba(71,5,13,1) 5%, rgba(189,8,28,1) 68%, rgba(189,8,28,1) 100%);
+background: linear-gradient(135deg, rgba(71,5,13,1) 0%, rgba(71,5,13,1) 5%, rgba(189,8,28,1) 68%, rgba(189,8,28,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47050d', endColorstr='#bd081c', GradientType=1 );
+box-shadow: inset black 0 0px 2px 0px;
+}
+
+.insta-overlay{
+  background: rgba(254,199,99,1);
+background: -moz-linear-gradient(45deg, rgba(254,199,99,1) 0%, rgba(254,199,99,1) 1%, rgba(241,105,57,1) 23%, rgba(180,52,149,1) 62%, rgba(127,63,203,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(254,199,99,1)), color-stop(1%, rgba(254,199,99,1)), color-stop(23%, rgba(241,105,57,1)), color-stop(62%, rgba(180,52,149,1)), color-stop(100%, rgba(127,63,203,1)));
+background: -webkit-linear-gradient(45deg, rgba(254,199,99,1) 0%, rgba(254,199,99,1) 1%, rgba(241,105,57,1) 23%, rgba(180,52,149,1) 62%, rgba(127,63,203,1) 100%);
+background: -o-linear-gradient(45deg, rgba(254,199,99,1) 0%, rgba(254,199,99,1) 1%, rgba(241,105,57,1) 23%, rgba(180,52,149,1) 62%, rgba(127,63,203,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(254,199,99,1) 0%, rgba(254,199,99,1) 1%, rgba(241,105,57,1) 23%, rgba(180,52,149,1) 62%, rgba(127,63,203,1) 100%);
+background: linear-gradient(45deg, rgba(254,199,99,1) 0%, rgba(254,199,99,1) 1%, rgba(241,105,57,1) 23%, rgba(180,52,149,1) 62%, rgba(127,63,203,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec763', endColorstr='#7f3fcb', GradientType=1 );
+box-shadow: inset black 0 0px 2px 0px;
+}
+  .overlay-text-positioner{
+    /*position: relative;*/
+        width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.overlay-text{
+  color: white;
+  font-size: 50px;
+  margin-top: 7.5px;
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+}
+/*.overlay-text:last-child{
+  font-size: 30px
+}*/
+.email-overlay{
+  font-size: 37px;
+}
+.email-icon{
+  margin-left: 10px;
+  width: 500px;
+  float: left;
+  background-color: blue;
+}
+.email-spacer{
+  position: relative;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.email-spacer h3{
+  top:20px;
+}
+.sm-spacer{
+  margin-top: 5px;
+  /*margin-bottom: 18px;*/
+}
+
+
+.sm-spacer h3{
+  margin-top: 15px;
+  float: left;
+  font-family:'Amatic SC', cursive;
+  font-size: 2.0vw;
+}
+
+.sm-icon{
+  float: left;
+  height: 60px;
+}
+
+.page-title{
+  text-align: center;
+}
+.page-title h1{
+  font-size: 90px;
+}
+.sub-title{
+  text-align: center;
+}
+.sub-title h1{
+  font-family:'Amatic SC', cursive;
+  font-size: 90px;
+}
+.experience-catagory{
+  font-family:'Amatic SC', cursive;
+  font-size: 30px;
+  margin-bottom: 30px;
+  /*box-shadow: 1px 0px 5px 0px #4a4848;
+  background-color: rgba(245, 245, 245, 0.68);*/
+  margin-left: 30px;
+}
+
+.experience-catagory h2{
+  font-size:50px;
+}
+#containerExperience{
+  box-shadow: 0px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+
+.logo-positioner{
+  width: 180px;
+  height: 180px;
+  /*float: left;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+.sm-top-bar{
+  width: 270px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sm-button-holder{
+  width: 210px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sm-button{
+  margin-left: 3px;
+  float: left;
+}
+.sm-top-icon{
+  float: left;
+  margin: 3px;
+  /*border-right: 1px solid black;*/
+}
+/*.sm-top-icon:last-child{
+  border-right: none;
+}*/
+.email-holder{
+  cursor: pointer;
+  margin: 10px;
+  height: 158px;
+  width: 460px;
+  padding: 15px;
+  background-color: #38307C;
+}
+.email-holder h1,.email-holder img {
+  float: left;
+  width: 508px;
+  height: 508px;
+}
+.email-holder h1 {
+  margin-top: 45px;
+  margin-left: 10px;
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+.media-holder{
+  /*width: 520px;*/
+}
+.msg-holder{
+  /*background-color: rgba(232, 236, 236, 0.51);
+  box-shadow: #16537f -1px 6px 14px 1px;*/
+    border-radius: 4px;
+  /*background-image: url("/static/images/msg-lg.png");*/
+  background-repeat:no-repeat;
+  background-size:auto;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+
+  height: 90px;
+  min-width: 700px;
+  width: 90%;
+  max-width: 1000px;
+}
+.msg-holder h1{
+  color: rgba(6, 7, 14, 0.91);
+  height: 70px;
+  font-size: 50px;
+  padding-top: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  /*margin: 00px;*/
+  font-family: 'Amatic SC', cursive;
+}
+.msg-positioner{
+  /*position: relative;*/
+  width: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.msg-positioner h1{
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.sm-update{
+  float: left;
+  height: 408px;
+  background-color: grey;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 10px;
+}
+
+#myCarousel{
+  height: 500px;
+  border-radius: 5px;
+}
+#myCarousel img{
+border-radius: 10px;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    /*color: ;*/
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 25px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+    text-align: center;
+    /*color: #42B32F;*/
+    margin-right: 10px;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    /*border: 1px solid #42B32F;*/
+    border-radius: 5px;
+    text-align: center;
+    /*color: #ffffff;*/
+    background-color: white;
+
+}
+.btn-default:active .filter-button:active
+{
+    /*background-color: #42B32F;*/
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+.about-me{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.about-me-img{
+  margin-top: 15px;
+  width: 700;
+  height: 300;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-me-img img{
+  width: 700px;
+  height: 300px;
+  box-shadow: 2px 2px 5px #1d1c1c;
+
+}
+#contact{
+  background-color: rgba(138, 138, 137, 0.17);
+  box-shadow: 0px 2px 4px black;
+}
+.contact-info-holder{
+  background-color: rgba(203, 203, 203, 0.48);
+  box-shadow: 0px 2px 4px black;
+  margin-right: 15px;
+  left: -15px;
+  margin-left: -15px;
+}
+
+.contact-op-holder{
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.contact-image{
+  position: relative;
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+.contact-info{
+float: left;
+margin-left: 20;
+}
+.contact-info h1{
+  margin-top: 15px;
+  font-size: 46px;
+    font-family: 'Amatic SC', cursive;
+}
+.contact-info h1 a{
+  text-decoration: none;
+}
+.contact-main-holder{
+  margin-top: 75px;
+}
+.email-text{
+  color: #6d76ec;
+}
+.intro-container{
+  margin-bottom: 50px;
+  box-shadow: 0px 5px 8px #3a3838;
+}
+
+.email-con{
+  cursor: pointer;
+}
+.about-me-intro{
+  margin-top: 40px;
+}
+.about-me-intro h2{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "OneDay",  Verdana, Tahoma;
+}
+.about-me-intro p{
+  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+}
+.about-me img{
+  max-width: 410px;
+  max-height: 410px;
+  margin-top: 20px;
+}
+.about-me-container{
+  margin-top: 60px;
+}
+.left-background{
+  position: absolute;
+  float: left;
+  background-image: url("/static/images/moonandsun.png");
+  background-repeat: round;
+  width: 90px;
+  height: 90px;
+}
+.right-background{
+  /*position: absolute;*/
+  background-image: url("/static/images/triangle.png");
+  background-repeat: round;
+  float: right;
+  width: 100px;
+  height: 90px;
+}
+
+
+
+
+
+/*@media screen
+and (min-device-width : 150px)
+and (max-device-width : 900px)  {
+
+  .nav-row {
+    overflow: auto;
+    height: 200px;
+    min-width: 1000px;
+}
+
+#nav{
+  margin-top: 100px;
+}
+
+.nav-row div{
+
+}
+.nav-op{
+  text-align: center;
+  float: left;
+}
+
+.nav-op h3{
+
+  font-size: 34px;
+  font-family: "OneDay",  Verdana, Tahoma;
+}
+.nav-op h3 a {
+  text-decoration: none;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+
+}
+.mob-logo-positioner{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo-positioner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+}
+.msg-holder{
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+}
+
+#mob-hide{
+  visibility: hidden;
+}
+
+#myCarousel{
+  width: 100%;
+}
+.sm-icon-overlay-left{
+  visibility: hidden;
+}
+.sm-icon-overlay-right{
+  visibility:collapse;
+}
+
+.sm-spacer h3{
+  margin-top: 15px;
+  float: left;
+  font-family:'Amatic SC', cursive;
+  font-size: 1.6vw;
+}
+.sm-icon-holder a{
+  text-decoration: none;
+  color: inherit;
+  width: 20%;
+}
+.sm-icon{
+  float: left;
+  height: 60px;
+}
+
+}
+/**/
+
+
+
+
+
+
+@media screen and (max-device-width : 992px) {
+
+  .sm-spacer h3{
+    font-size: 17px;
+    margin-left: -5px;
+    margin-top: 20px;
+  }
+
+.sm-spacer img{
+      margin-left: -20px;
+
+}
+#contact{
+  left: -30px;
+}
+
+.nav-op:first-child{
+  margin-left: 10%
+}
+
+.nav-row h3 {
+
+    font-size: 19px;
+
+}
+
+
+}
